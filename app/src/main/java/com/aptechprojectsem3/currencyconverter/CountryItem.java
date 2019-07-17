@@ -2,19 +2,19 @@ package com.aptechprojectsem3.currencyconverter;
 
 public class CountryItem {
 
-    private String countryName;
-    private int flagImage;
+    public String countryName;
+    public int flagImage;
 
-    private CountryItem(String countryName, int flagImage) {
+    public CountryItem(String countryName, int flagImage) {
        this.countryName = countryName;
        this.flagImage = flagImage;
     }
 
-    private String getCountryName() {
+    public String getCountryName() {
         return countryName;
     }
 
-    private int getFlagImage() {
+    public int getFlagImage() {
         return flagImage;
     }
 }
