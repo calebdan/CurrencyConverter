@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Currency Converter</string>
+    <string name="application_name">Currency Converter</string>
+    <string name="no_value">0.00</string>
+    <string name="string_convert">Convert</string>
+    <string name="img_description">Image of Country Flag where currency is from</string>
+
+    <string name="dollar_sign">S</string>
+    <string name="pound_sign">P</string>
+    <string name="euro_sign">E</string>
+
+
+</resources>
