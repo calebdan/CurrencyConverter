@@ -66,8 +66,6 @@ public class MainActivity extends AppCompatActivity {
             public void onItemSelected(AdapterView<?> adapterView, View view, int i, long l) {
                // CountryItem clickedItem = (CountryItem) adapterView.getItemAtPosition(i);
 
-
-
                 itemPositionInt = i;
             }
 
@@ -80,6 +78,8 @@ public class MainActivity extends AppCompatActivity {
         dollarTV.setText("\u0024 0.00" );
         euroTV.setText("\u20AC 0.00");
         poundTV.setText("\u00A3 0.00");
+
+
 
 
         mainButton.setOnClickListener(new View.OnClickListener() {
